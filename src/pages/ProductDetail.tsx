@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
-import { getProductById, products } from '@/data/products';
+import { getProductById, products, categories } from '@/data/products';
 import { Button } from '@/components/ui/button';
 import { 
   ChevronLeft, 
