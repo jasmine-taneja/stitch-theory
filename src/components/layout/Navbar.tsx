@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { ShoppingCart, User, Menu, Search, Home, Package, ShoppingBag, Info } from 'lucide-react';
+import { ShoppingCart, User, Menu, Search, Home, Package, ShoppingBag, Info, LogIn } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const Navbar = () => {
@@ -92,10 +92,10 @@ const Navbar = () => {
             </Button>
           </Link>
           
-          <Link to="/account">
+          <Link to="/login">
             <Button variant="ghost" size="icon">
-              <User className="h-5 w-5" />
-              <span className="sr-only">Account</span>
+              <LogIn className="h-5 w-5" />
+              <span className="sr-only">Login</span>
             </Button>
           </Link>
         </div>
